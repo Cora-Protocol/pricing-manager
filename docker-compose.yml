@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  near_curve_manager:
+    build: .
+    stdin_open: true
+    tty: true
+    env_file:
+      - .env
+  # eth_curve_manager:
+  #   build: .
+  #   stdin_open: true
+  #   tty: true
+  #   env_file:
+  #     - .env
+  #   environment:
+  #     - ASSET=weth
