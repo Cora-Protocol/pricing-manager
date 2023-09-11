@@ -1,11 +1,19 @@
-# Cora Curve Manager
+# Cora Pricing Manager
 
-This repository contains a curve manager docker image that is easy to host and setup.
+This repository contains a pricing manager implemention for the different pricing models supported in the Cora protocol.
+
+Supported pricing models:
+
+- Black Scholes
+- Fixed Rate
+- Kelly
+
+The repository contains a dockerized version for easy setup in the Cloud or any machine with docker installed.
 
 ### Get started
 
 ```
-$ git clone https://github.com/Cora-Protocol/curve-manager.git
+$ git clone https://github.com/Cora-Protocol/pricing-manager.git
 
 $ pip install -r requirements.txt
 
